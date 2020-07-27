@@ -3,7 +3,12 @@ body{
   margin:0;
   border:0;
 }
-h1{
+@media only screen and (min-width: 992px) {
+	/*desktop*/
+  body {
+    background-color: lightblue;
+  }
+  h1{
   text-align:center;
 }
 section{
@@ -17,7 +22,7 @@ section{
 }
 #s1,#s2,#s3{
   position:relative;
-  left:235px;
+  left:240px;
   bottom:20px;
   display:block;
   border:2px solid black;
@@ -36,4 +41,85 @@ section{
 p{
   font-weight:bold;
   padding:10px;
+}
+}
+@media (min-width:767px) and (max-width: 991px) {
+	/*tablet*/
+  body {
+    background-color: lightblue;
+  }
+  h1{
+  text-align:center;
+}
+section{
+  float:left;
+  width:25%;
+  height:200px;
+  margin:30px;
+   background-color:rgb(128,128,128);
+  border:2px solid black;
+
+}
+#s1,#s2,#s3{
+  position:relative;
+  left:240px;
+  bottom:20px;
+  display:block;
+  border:2px solid black;
+  width:100px;
+}
+#s1{
+  color:white;
+  background-color:rgb(197, 140, 133);
+}
+#s2{
+  background-color:rgb(255, 0, 0);
+}
+#s3{
+  background-color:yellow;
+}
+p{
+  font-weight:bold;
+  padding:10px;
+}
+}
+@media only screen and (max-width: 767px) {
+	/*mobile*/
+  h1{
+  text-align:center;
+}
+section{
+	position:relative;
+	left:100px;
+  width:55%;
+  height:200px;
+  margin:30px;
+   background-color:rgb(128,128,128);
+  border:2px solid black;
+
+}
+#s1,#s2,#s3{
+  position:relative;
+  left:302px;
+  bottom:21px;
+  display:block;
+  border:2px solid black;
+  width:100px;
+}
+#s1{
+  color:white;
+  background-color:rgb(197, 140, 133);
+}
+#s2{
+  background-color:rgb(255, 0, 0);
+}
+#s3{
+  background-color:yellow;
+}
+p{
+	position:relative;
+	bottom:40px;
+  font-weight:bold;
+  padding:12px;
+  }
 }

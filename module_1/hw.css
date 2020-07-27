@@ -89,8 +89,8 @@ p{
   text-align:center;
 }
 section{
-	position:relative;
-	left:100px;
+  position:relative;
+  left:100px;
   width:55%;
   height:200px;
   margin:30px;
@@ -117,9 +117,9 @@ section{
   background-color:yellow;
 }
 p{
-position:relative;
+position:absolute;
 bottom:200px;
- font-weight:bold;
- padding:12px;
+font-weight:bold;
+padding:12px;
   }
 }

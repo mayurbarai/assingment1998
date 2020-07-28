@@ -89,6 +89,7 @@ p{
   text-align:center;
 }
 section{
+  display:block;
   position:relative;
   left:100px;
   width:55%;

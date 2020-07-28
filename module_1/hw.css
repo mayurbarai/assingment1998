@@ -83,7 +83,7 @@ p{
   padding:10px;
 }
 }
-@media (max-width: 767px) {
+@media (max-width:767px) {
 	/*mobile*/
   h1{
   text-align:center;
@@ -99,6 +99,7 @@ section{
 
 }
 #s1,#s2,#s3{
+  display:block;
   position:relative;
   left:302px;
   bottom:21px;
